@@ -9,6 +9,9 @@
 * {
 	font-family: 'KoPubDotumMedium';
 }
+body {
+	background: linear-gradient(to right, #C165DD, #5C27FE);
+}
 .mainColor{
 	background-color: #7244FE;
 }
@@ -91,4 +94,13 @@ label, .date{
 button:hover{
 	color: #7244FE;
 	background-color: transparent;
+}
+.box {
+	width: 750px;
+	height: 1000px;
+	padding: 50px;
+	margin: 100px auto;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 5px 5px 20px;
 }
